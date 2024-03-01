@@ -1,21 +1,13 @@
 {
   root: '/Users/yinyang/front/block_test/muke/imooc-on-blockchain',
   registry: 'https://registry.npmmirror.com',
-  pkgs: [
-    {
-      name: 'solc',
-      version: '0.4.24',
-      type: 'version',
-      alias: undefined,
-      arg: [Result]
-    }
-  ],
+  pkgs: [],
   production: false,
   cacheStrict: false,
   cacheDir: '/Users/yinyang/.npminstall_tarball',
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=/Users/yinyang/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","solc@0.4.24","--save"],"original":["--fix-bug-versions","--china","--userconfig=/Users/yinyang/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","solc@0.4.24","--save"]}',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=/Users/yinyang/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","ganache@6.12.2","-g"],"original":["--fix-bug-versions","--china","--userconfig=/Users/yinyang/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","ganache@6.12.2","-g"]}',
     npm_config_user_agent: 'npminstall/7.9.0 npm/? node/v18.16.1 darwin arm64',
     npm_config_cache: '/Users/yinyang/.npminstall_tarball',
     NODE: '/usr/local/bin/node',
@@ -193,11 +185,13 @@
   ignoreScripts: false,
   foregroundScripts: false,
   ignoreOptionalDependencies: false,
-  detail: false,
+  detail: true,
   forceLinkLatest: false,
   trace: false,
   engineStrict: false,
   registryOnly: false,
   client: false,
-  autoFixVersion: [Function: autoFixVersion]
+  autoFixVersion: [Function: autoFixVersion],
+  targetDir: null,
+  binDir: null
 }
